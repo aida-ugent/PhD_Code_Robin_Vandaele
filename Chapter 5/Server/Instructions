@@ -1,0 +1,12 @@
+connect to VPN
+
+--- terminal ---
+
+scp /home/robin/Documents/BCB/Server/X.csv robin@10.10.133.46:/home/robin/
+ssh robin@10.10.133.46
+Rscript persistenceServer.R
+
+--- new terminal ---
+
+scp robin@10.10.133.46:/home/robin/diagram.csv /home/robin/Documents/BCB/Server/
+scp robin@10.10.133.46:/home/robin/cycleLocation.json /home/robin/Documents/BCB/Server/

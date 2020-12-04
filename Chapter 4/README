@@ -1,0 +1,11 @@
+This folder contains all code for chapter 4 in our thesis.
+
+All experiments are performed in R.
+
+The folder "R" contains our custom built functions for this chapter.
+
+The folder "Scripts" contains the R script used to provide the intuition behind LTDA.
+
+The folder "Data" contains the data used in this chapter.
+
+The folder "Experiments" contains the R scripts used to produce the results in Chapter 4.
